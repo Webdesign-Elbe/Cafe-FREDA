@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speisekarte — Café FREDA</title>
+<meta name="description" content="Die komplette Speise- und Getränkekarte von Café FREDA: Frühstück, Panini, Bowls, Pasta, Kuchen, Kaffee, Tee und mehr.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+        <circle cx="15" cy="15" r="14" stroke="#8A9A85" stroke-width="1.4"/>
+        <path d="M9 17c1.5-5 4-7 6-7s4.5 2 6 7" stroke="#5E7267" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M15 10v10" stroke="#C79A3D" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <span>FREDA<small>Café &amp; Bistro</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Start</a></li>
+      <li><a href="speisekarte.html" aria-current="page">Speisekarte</a></li>
+      <li><a href="cafe.html">Café FREDA</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="nav-extra">
+      <span class="nav-status" data-status-badge>
+        <span class="dot"></span>
+        <span data-status-headline>—</span>
+      </span>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+  <div class="container" style="padding-top:44px;">
+    <span class="hero-eyebrow">Hausgemacht &amp; frisch</span>
+    <h1 style="font-size:clamp(2.2rem,4vw,3.2rem);">Unsere Speisekarte</h1>
+    <p class="hero-lede">Zum Stöbern, Filtern oder Suchen — tippt einfach eine Kategorie an oder sucht direkt nach einem Gericht.</p>
+  </div>
+
+  <div class="menu-toolbar">
+    <div class="container">
+      <ul class="menu-tabs" role="tablist" aria-label="Menükategorien">
+        <li><button role="tab" aria-selected="true" data-target="tab-fruehstueck">Frühstück &amp; Stullen</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-bowls">Bowls &amp; Pasta</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-suess">Waffeln &amp; Kuchen</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-mittag">Mittagstisch</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-kaffee">Kaffee &amp; Specials</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-tee">Tee &amp; Smoothies</button></li>
+        <li><button role="tab" aria-selected="false" data-target="tab-kalt">Kalt &amp; Alkoholisch</button></li>
+      </ul>
+      <div class="menu-search">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.2" stroke="#4B564C" stroke-width="1.3"/><path d="M11 11l3.2 3.2" stroke="#4B564C" stroke-width="1.3" stroke-linecap="round"/></svg>
+        <input type="search" placeholder="Suchen…" aria-label="Speisekarte durchsuchen">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- ===================== FRÜHSTÜCK & STULLEN ===================== -->
+    <section id="tab-fruehstueck" class="menu-panel active" role="tabpanel">
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Frühstücks-Klassiker</h3>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <span class="menu-item-name">FREDA <span class="badge">auch veggie/vegan</span></span>
+            <span class="menu-item-dots"></span><span class="menu-item-price">18,00 €</span>
+            <span class="menu-item-desc">Brötchen, Bauernbrot, Croissant, gemischte Aufschnitt- und Käseauswahl, Räucherlachs &amp; Meerrettich, Butter, Honig, Frischkäse, selbstgemachte Marmelade.</span>
+          </li>
+          <li class="menu-item">
+            <span class="menu-item-name">FREDA für zwei <span class="badge">auch veggie/vegan</span></span>
+            <span class="menu-item-dots"></span><span class="menu-item-price">40,00 €</span>
+            <span class="menu-item-desc">Wie FREDA, für zwei Personen — plus kleine selbstgemachte Granola, Joghurt, Guacamole. Pro Person 0,1 l Prosecco oder frisch gepresster Orangensaft.</span>
+          </li>
+          <li class="menu-item">
+            <span class="menu-item-name">Süße Hanni</span>
+            <span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span>
+            <span class="menu-item-desc">Ein Croissant, Butter, hausgemachte Marmelade oder Nutella.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Panini</h3>
+        <p class="menu-group-sub">Rustikal, mit Kräutern der Provence</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Noel</span><span class="menu-item-dots"></span><span class="menu-item-price">9,90 €</span>
+            <span class="menu-item-desc">Mozzarella, hausgemachte Tomatenbutter, bunte Tomaten, Baby Leaf, Parmesan, hausgemachtes Pesto.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Bashy</span><span class="menu-item-dots"></span><span class="menu-item-price">10,90 €</span>
+            <span class="menu-item-desc">Hausgemachte Tomatenbutter, Tomaten, Ziegenkäse, Serrano-Schinken.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Eddi</span><span class="menu-item-dots"></span><span class="menu-item-price">10,90 €</span>
+            <span class="menu-item-desc">Lachs, Meerrettich-Frischkäse, Wildkräutersalat, Gurken, Honig-Senf-Sauce.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Mara <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">9,90 €</span>
+            <span class="menu-item-desc">Rote-Bete-Humus, Avocado, bunte Tomaten, Wildkräutersalat, Sprossen.</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Breakfast Burger</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Freda Special</span><span class="menu-item-dots"></span><span class="menu-item-price">12,50 €</span>
+            <span class="menu-item-desc">Brioche Bun, zwei Bio-Spiegeleier, Käse, Avocado, Special-Sauce, Chili-Flocken, Sprossen, Frühlingszwiebeln.</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Stullen</h3>
+        <p class="menu-group-sub">Auf knusprigem Bauernbrot</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Royal Egg <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">15,50 €</span>
+            <span class="menu-item-desc">Zwei Bio-Spiegeleier, Butter, Avocado, Frischkäse, Sauce Hollandaise, Schnittlauch.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Burrata Peach <span class="badge">neu</span></span><span class="menu-item-dots"></span><span class="menu-item-price">16,60 €</span>
+            <span class="menu-item-desc">Burrata, Pfirsich, hausgemachtes Pesto, Wildkräutersalat, Pistazien, Sesam, Sprossen, Mangocreme.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Rührei Lover <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">12,50 €</span>
+            <span class="menu-item-desc">Rührei aus drei Bio-Eiern, Butter, frischer Schnittlauch.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Humus Bread <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">11,50 €</span>
+            <span class="menu-item-desc">Cremiger Rote-Bete-Humus, Avocado, Baby Leaf, Schafskäse, Granatapfel, Sesam, Feige-Joghurt-Creme.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Avocado <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">10,90 €</span>
+            <span class="menu-item-desc">Hausgemachte Tomatenbutter, Smashed Avocado, Tomaten, Baby Leaf, geröstete Sesamcreme, Sesam, Erdnüsse.</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">…Willst du mehr</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">♡ Lachs</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Avocado</span><span class="menu-item-dots"></span><span class="menu-item-price">2,80 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Burratta</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Rührei aus 2 Bio-Eiern</span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+        </ul>
+      </div>
+
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== BOWLS & PASTA ===================== -->
+    <section id="tab-bowls" class="menu-panel" role="tabpanel">
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Bowls</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Granola Bowl</span><span class="menu-item-dots"></span><span class="menu-item-price">10,50 €</span>
+            <span class="menu-item-desc">Joghurt, hausgemachte Granola, Chiasamen, Kokosraspeln, frische Früchte, Bio-Agavensaft.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Cinnamon Bowl <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">12,00 €</span>
+            <span class="menu-item-desc">Banane, Blaubeere, Zimt, Ahornsirup, Kokosjoghurt, frische Früchte, hausgemachte Granola.</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Salat Bowls</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Summer Bowl <span class="badge">♡ ᴠᴇ</span></span><span class="menu-item-dots"></span><span class="menu-item-price">12,90 €</span>
+            <span class="menu-item-desc">Reisnudeln, Salat, Avocado, Sprossen, Gurken, Karotten, Paprika, Granatapfelkerne, Nüsse.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Goat Bowl <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">14,90 €</span>
+            <span class="menu-item-desc">Quinoa, Wildkräutersalat, karamellisierter Ziegenkäsetaler, Serrano-Schinken, Kichererbsen, Feigen, Nüsse.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Veggie Bowl <span class="badge">♡ ᴠᴇ</span></span><span class="menu-item-dots"></span><span class="menu-item-price">13,90 €</span>
+            <span class="menu-item-desc">Falafel-Bällchen, Quinoa, Wildkräutersalat, cremiger Rote-Bete-Humus, Früchte, Nüsse.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Caesar Bowl</span><span class="menu-item-dots"></span><span class="menu-item-price">14,90 €</span>
+            <span class="menu-item-desc">Hähnchenbrustfilet in Sesam-Honig-Marinade, Quinoa, Römersalat, Tomaten, Parmesan, Croutons.</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Dressing zum Aussuchen</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">♡ Mango-Chili <span class="badge">ᴠᴇ</span></span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Roasted Sesam <span class="badge">ᴠᴇ</span></span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Honig-Senf</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Joghurt</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Zitronen-Vinaigrette <span class="badge">ᴠᴇ</span></span></li>
+        </ul>
+        <p class="menu-group-sub" style="margin-top:14px;">Willst du mehr: ♡ Hähnchenbrustfilet 3,50 € · Pasta &amp; Bowl</p>
+      </div>
+
+      <div class="menu-group">
+        <h3 class="menu-group-title">Pasta</h3>
+        <p class="menu-group-sub">Mit hausgemachtem Pesto</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Pesto</span><span class="menu-item-dots"></span><span class="menu-item-price">10,90 €</span>
+            <span class="menu-item-desc">Basilikum, Parmesan, Nüsse, Baby Leaf.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Lemon</span><span class="menu-item-dots"></span><span class="menu-item-price">15,90 €</span>
+            <span class="menu-item-desc">Burrata, gebratene Pfirsiche, Wildkräutersalat, Pistazienchrunch, Parmesan.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Mediterran</span><span class="menu-item-dots"></span><span class="menu-item-price">13,90 €</span>
+            <span class="menu-item-desc">Paprika, Ziegenkäse, Rucola, Nüsse, Parmesan.</span></li>
+        </ul>
+      </div>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== WAFFELN & KUCHEN ===================== -->
+    <section id="tab-suess" class="menu-panel" role="tabpanel">
+      <div class="menu-group">
+        <h3 class="menu-group-title">Waffeln</h3>
+        <p class="menu-group-sub">Belgische Waffeln</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Puderzucker</span><span class="menu-item-dots"></span><span class="menu-item-price">6,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Zimt &amp; Zucker</span><span class="menu-item-dots"></span><span class="menu-item-price">6,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Fruit Crumble</span><span class="menu-item-dots"></span><span class="menu-item-price">11,70 €</span>
+            <span class="menu-item-desc">Früchtekompott, frische Früchte, Crumble, geröstete Mandeln, Sahne.</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Kuchen</h3>
+        <p class="menu-group-sub">Selbstgebacken — unsere Kuchen- und Tortenauswahl findet ihr an der Theke.</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Kuchen, Stück</span><span class="menu-item-dots"></span><span class="menu-item-price">4,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Torte, Stück</span><span class="menu-item-dots"></span><span class="menu-item-price">4,60 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">♡ Sahne dazu</span><span class="menu-item-dots"></span><span class="menu-item-price">1,20 €</span></li>
+        </ul>
+      </div>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== MITTAGSTISCH ===================== -->
+    <section id="tab-mittag" class="menu-panel" role="tabpanel">
+      <div class="mittag-banner">
+        <div>
+          <h3>Mittagstisch dieser Woche</h3>
+          <p>Ab 12:00 Uhr · frisch für euch gekocht · wechselt wöchentlich</p>
+        </div>
+        <span class="pill" style="background:rgba(250,246,238,.16); color:#fff;">Mo – Fr</span>
+      </div>
+      <div class="menu-group">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <span class="menu-item-name">Chicken Madras <span class="badge">original indisch</span></span>
+            <span class="menu-item-dots"></span><span class="menu-item-price">13,90 €</span>
+            <span class="menu-item-desc">Zarte Hähnchenstücke in würzig-pikanter Currysauce mit indischen Gewürzen, Zwiebeln und Tomaten. Serviert mit Basmatireis.</span>
+          </li>
+          <li class="menu-item">
+            <span class="menu-item-name">Aloo Gobi <span class="badge">♡ vegetarisch</span></span>
+            <span class="menu-item-dots"></span><span class="menu-item-price">12,90 €</span>
+            <span class="menu-item-desc">Kartoffeln, Blumenkohl und Tofu, verfeinert mit Kurkuma, Kreuzkümmel, Koriander und Ingwer. Serviert mit Basmatireis.</span>
+          </li>
+        </ul>
+      </div>
+      <p style="color:var(--ink-soft); font-size:.9rem;">Der Mittagstisch wechselt jede Woche — schaut kurz vorher bei uns auf Instagram <a href="https://www.instagram.com/cafe_freda_" target="_blank" rel="noopener" style="color:var(--elbe); font-weight:600;">@cafe_freda_</a> vorbei oder fragt uns direkt vor Ort.</p>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== KAFFEE & SPECIALS ===================== -->
+    <section id="tab-kaffee" class="menu-panel" role="tabpanel">
+      <div class="menu-group">
+        <h3 class="menu-group-title">Kaffee Classics</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Latte Macchiato</span><span class="menu-item-dots"></span><span class="menu-item-price">4,30 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Cappuccino</span><span class="menu-item-dots"></span><span class="menu-item-price">3,80 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Espresso Doppio</span><span class="menu-item-dots"></span><span class="menu-item-price">3,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Cortado</span><span class="menu-item-dots"></span><span class="menu-item-price">3,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Flat White</span><span class="menu-item-dots"></span><span class="menu-item-price">3,80 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Americano</span><span class="menu-item-dots"></span><span class="menu-item-price">3,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Iced Latte</span><span class="menu-item-dots"></span><span class="menu-item-price">5,40 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Heiße Schokolade</span><span class="menu-item-dots"></span><span class="menu-item-price">4,50 €</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Fredas Specials</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Pink Latte <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span>
+            <span class="menu-item-desc">Goji-Beeren, Acai-Beeren, Rote-Bete-Gewürze.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Golden Latte <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span>
+            <span class="menu-item-desc">Kurkuma, Ingwer, Zimt, Pfeffer.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Dirty Chai <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span>
+            <span class="menu-item-desc">Chai Latte mit Espresso.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Pistazien Vanille Matcha <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span>
+            <span class="menu-item-desc">Matcha, Vanille, Pistazie, Milch.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Schoko Traum</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span>
+            <span class="menu-item-desc">Kakao, Milch, Schokoflocken, Sahne, Mini-Marshmallows.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Haselnuss Milk <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span>
+            <span class="menu-item-desc">Haselnusscreme, geröstete Haselnüsse, Milch, Sahne.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Matcha Latte <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Chai Latte <span class="menu-item-hot">hot / iced</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Iced Matcha Latte <span class="menu-item-hot">je Sorte</span></span><span class="menu-item-dots"></span><span class="menu-item-price">6,40 €</span>
+            <span class="menu-item-desc">Blueberry, Mango oder Strawberry.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Ube Matcha</span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Ube Latte</span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Willst du mehr</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">♡ Espresso-Shot dazu</span><span class="menu-item-dots"></span><span class="menu-item-price">+ 2,00 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Hafermilch / Kokosmilch</span><span class="menu-item-dots"></span><span class="menu-item-price">+ 0,50 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Vanille- / Haselnuss- / Karamell- / Zimt- / Lebkuchensirup</span><span class="menu-item-dots"></span><span class="menu-item-price">+ 0,50 €</span></li>
+        </ul>
+      </div>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== TEE & SMOOTHIES ===================== -->
+    <section id="tab-tee" class="menu-panel" role="tabpanel">
+      <div class="menu-group">
+        <h3 class="menu-group-title">Trink Meer Tee</h3>
+        <p class="menu-group-sub">Unsere Bio-Teeauswahl mit Elbe-Anleihen — je 3,90 €</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Alle Mann an Bord</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio schwarzer Tee: vollmundiger Assam.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Punkt Fünf am Hafen</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio schwarzer Tee: First Flush Darjeeling.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Anker Lichten</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio grüner Tee: fein, herb, süßlich.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Wogen Glätten</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio aromatisierter grüner Tee: zart und fruchtig.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Reizklima</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio aromatisierter Kräutertee: Hauch von Meersalz.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Land in Sicht</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio aromatisierter Kräutertee: Mandarine und Vanille.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Rückenwind</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio Früchtetee: Beerengeschmack.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Auf Tauchstation</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio aromatisierter Früchtetee: Sanddorn, Orange-Mandarine.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Flitzpiepe</span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span>
+            <span class="menu-item-desc">Bio aromatisierte Rooibos-Teemischung: Holunder- und Johannisbeere.</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Frisch &amp; Immun-Boost</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Immun-Boost Tee</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span>
+            <span class="menu-item-desc">Orange, Zimt, Minze, Ingwer.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Frische Sorten <span class="menu-item-hot">wähle deine Zutaten</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,50 €</span>
+            <span class="menu-item-desc">Minze · Ingwer · Orange · Zitrone.</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Smoothies <span class="menu-item-hot">100% Bio</span></h3>
+        <p class="menu-group-sub">je 6,90 €</p>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Grasshoper</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Ananas, Banane, Spinat, Mango.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Sunshine</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Pfirsich, Passionsfrucht, Mango.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Pink Pitaya</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Rote Drachenfrucht, Mango, Banane, Passionsfrucht.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Acai Berry &amp; Co</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Erdbeere.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Veggie <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Rote Bete, Karotte, Papaya, Sellerie, Lucuma, Ingwer.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Green Mix <span class="badge">♡</span></span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Spinat, Broccoli, Avocado, Mango, Weizengras, Gerstengras, Spirulina.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Vitamin Booster</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span>
+            <span class="menu-item-desc">Orange, Karotte, Mango, Zitrone.</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Frappés</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Vanilla Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Caramel Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Chocolate Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Coffee Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Toffee Coffee Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Matcha Frappé</span><span class="menu-item-dots"></span><span class="menu-item-price">6,90 €</span></li>
+        </ul>
+      </div>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+    <!-- ===================== KALT & ALKOHOLISCH ===================== -->
+    <section id="tab-kalt" class="menu-panel" role="tabpanel">
+      <div class="menu-group">
+        <h3 class="menu-group-title">Kaltgetränke</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">♡ Frisch gepresster Orangensaft <span class="menu-item-hot">0,3 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">5,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Tages-Limonade, hausgemacht <span class="menu-item-hot">0,4 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Fritz-Kola / Mischmasch / Honigmelone / Apfel-Kirsch-Holunder <span class="menu-item-hot">0,2 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">3,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Bio Rhabarberschorle / Bio Apfelschorle <span class="menu-item-hot">0,2 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">3,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Soda Libre Limonade <span class="menu-item-hot">Passionfruit · Grapefruit · Raspberry · Basil · 0,33 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,30 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Mineralwasser Sturmflut / Ebbe <span class="menu-item-hot">0,33 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">3,50 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Mineralwasser Sturmflut / Ebbe <span class="menu-item-hot">0,75 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">6,50 €</span></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <h3 class="menu-group-title">Alkoholisches</h3>
+        <ul class="menu-list">
+          <li class="menu-item"><span class="menu-item-name">Aperol Spritz</span><span class="menu-item-dots"></span><span class="menu-item-price">7,90 €</span>
+            <span class="menu-item-desc">Aperol, Prosecco, Soda, Orange.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Dicapri Spritz</span><span class="menu-item-dots"></span><span class="menu-item-price">7,90 €</span>
+            <span class="menu-item-desc">Limoncello, Sekt, Soda, Zitrone, Minze.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Aloha Spritz</span><span class="menu-item-dots"></span><span class="menu-item-price">7,90 €</span>
+            <span class="menu-item-desc">Aloha Déjà-Vu, Sekt, Soda, Zitrone.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Hugo</span><span class="menu-item-dots"></span><span class="menu-item-price">7,90 €</span>
+            <span class="menu-item-desc">Prosecco, Holunderblüte, Minze, Soda.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Lillet Berry</span><span class="menu-item-dots"></span><span class="menu-item-price">8,50 €</span>
+            <span class="menu-item-desc">Lillet, Schweppes Wild Berry, Beerenmix.</span></li>
+          <li class="menu-item"><span class="menu-item-name">Prosecco <span class="menu-item-hot">0,1 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,20 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Weißwein — Henrici AURA Grauer Burgunder <span class="menu-item-hot">0,2 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">7,50 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Roséwein — Henrici AURA Rosé <span class="menu-item-hot">0,2 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">7,50 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Weinschorle <span class="menu-item-hot">0,2 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">6,50 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Altes Mädchen, Ratsherrn Zwickel <span class="menu-item-hot">0,33 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">3,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Kaputziner Weißbier, naturtrüb <span class="menu-item-hot">0,5 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+          <li class="menu-item"><span class="menu-item-name">Kaputziner Weißbier, alkoholfrei <span class="menu-item-hot">0,5 l</span></span><span class="menu-item-dots"></span><span class="menu-item-price">4,90 €</span></li>
+        </ul>
+      </div>
+      <p class="menu-empty">Keine Treffer — versucht es mit einem anderen Suchbegriff.</p>
+    </section>
+
+  </div>
+
+  <div class="container" style="margin-top:20px;">
+    <p style="color:var(--ink-soft); font-size:.85rem; border-top:1px solid var(--paper-line); padding-top:20px;">Alle Preise inkl. MwSt. Änderungen vorbehalten — bitte fragt im Zweifel kurz unser Team, falls sich seit dem letzten Kartendruck etwas geändert hat. ♡ = vegetarisch, ᴠᴇ = auch vegan möglich.</p>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">FREDA</div>
+        <p class="footer-tag">Café &amp; Bistro mit Wohnzimmer-Atmosphäre in Hamburg. Frühstück, Kuchen, Kaffee — von Herzen gemacht.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="speisekarte.html">Speisekarte</a></li>
+          <li><a href="cafe.html">Café FREDA</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:+494057258960">+49 (40) 57 25 89 60</a></li>
+          <li><a href="mailto:info@cafe-freda.de">info@cafe-freda.de</a></li>
+          <li><a href="https://www.instagram.com/cafe_freda_" target="_blank" rel="noopener">Instagram</a></li>
+          <li>Theodorstraße 48, Haus 3<br>22761 Hamburg</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> Café FREDA</span>
+      <a href="https://www.cafe-freda.com/Impressum/" target="_blank" rel="noopener">Impressum</a>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="js/main.js"></script>
+</body>
+</html>
